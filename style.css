@@ -605,3 +605,37 @@ html {
 }
 
 /* End of Section 4 */
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 50rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-family: 'Baloo Da 2', serif;
+    font-size: 1.6rem;
+    color: #a7a7a7;
+}
+
+.social-list a {
+    margin: 0 2rem;
+}
+
+.social-list i {
+    font-size: 2rem;
+    color: #a7a7a7;
+}
+
+/* End of Footer */
