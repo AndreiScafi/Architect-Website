@@ -11,6 +11,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* End of Common Styles */
@@ -610,7 +611,7 @@ html {
 
 .footer {
     width: 100%;
-    height: 50rem;
+    height: 15rem;
     background-color: #17181b;
     display: flex;
     justify-content: center;
@@ -639,3 +640,24 @@ html {
 }
 
 /* End of Footer */
+
+/* Scroll BTN */
+
+.scroll-btn {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #e2b646;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, 0.2);
+    border-radius: .3rem;
+}
+
+
+/* End of Scroll BTN */
