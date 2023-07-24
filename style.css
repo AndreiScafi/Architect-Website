@@ -203,6 +203,7 @@ html {
     right: -40rem;
     background-color: #fff;
     transition: right .5s;
+    z-index: 100;
 }
 
 .change .sidebar {
