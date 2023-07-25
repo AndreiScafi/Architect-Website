@@ -19,3 +19,13 @@ scrollBtn.addEventListener('click', () => {
     }, 1000);
 })
 /* End of Scroll Btn */
+
+/* Spinner effect */
+const spinnerContainer = document.querySelector('.spinner-container');
+
+setTimeout(() => {
+    spinnerContainer.style.display = 'none';
+    container.style.display = 'block';
+}, 4000)
+
+/* End of Spinner effect */
