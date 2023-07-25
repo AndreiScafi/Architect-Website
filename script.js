@@ -1,3 +1,26 @@
+/* Spinner effect */
+
+/* My Attempt */
+/* const spinnerContainer = document.querySelector('.spinner-container');
+
+setTimeout(() => {
+    spinnerContainer.style.display = 'none';
+    container.style.display = 'block';
+}, 4000) */
+/* End of My Attempt */
+
+/* Professor's code */
+
+window.onload = () => {
+    setTimeout(() => {
+        document.querySelector('body').classList.add('display')
+    }, 4000)
+};
+
+/* End of Professor's code */
+
+/* End of Spinner effect */
+
 /* Menu-sidebar */
 const menu = document.querySelector('.hamburger-menu');
 const container = document.querySelector('.container');
@@ -20,12 +43,3 @@ scrollBtn.addEventListener('click', () => {
 })
 /* End of Scroll Btn */
 
-/* Spinner effect */
-const spinnerContainer = document.querySelector('.spinner-container');
-
-setTimeout(() => {
-    spinnerContainer.style.display = 'none';
-    container.style.display = 'block';
-}, 4000)
-
-/* End of Spinner effect */
